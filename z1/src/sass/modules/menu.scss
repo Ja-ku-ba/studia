@@ -1,19 +1,21 @@
 @use 'config' as *;
 
 .menu {
-  position: relative;
-  bottom: 0;
   height: 84px;
   width: 100%;
-  border: 1px solid red;
   padding: 0 50px;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
 
   &__apps{
+    width: 100%;
     padding: 0;
     list-style: none;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    filter: invert(100%);
+
   }
 
   &__apps ul {
