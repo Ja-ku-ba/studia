@@ -2,11 +2,42 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+
+    <title>OrangeTube</title>
+
+    <!-- Google fonts   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/src/sass/styles.scss">
+    <script type="module" src="/src/js/main.js"></script>
   </head>
   <body>
+  <header id="start">
+    <nav>
+      <button id="toggle" type="button">
+        <img src="public/img/icons/menu.svg" width="48" height="48" alt="menu"/>
+      </button>
+
+      <ul id="menu">
+        <li><a href="#">Moje konto</a> </li>
+        <li><a href="#">Polubione</a> </li>
+        <li><a href="#">Subskrypcje</a> </li>
+        <li><a href="#">Playlisty</a> </li>
+        <li><a href="#">Na czasie</a> </li>
+        <li><a href="#">Odkryj</a> </li>
+        <li><a href="#">Zdobądź premium</a> </li>
+      </ul>
+
+      <div id="search-bar">
+        <input type="text">
+        <img src="public/img/icons/search.svg" />
+      </div>
+    </nav>
+  </header>
     <div id="app"></div>
     <script type="module" src="/main.js"></script>
   </body>
