@@ -4,6 +4,9 @@
   width: 100%;
   height: 72px;
   background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
 
   & nav {
     width: 100%;
@@ -13,21 +16,65 @@
     #toggle {
       border: none;
       background-color: black;
+      margin-left: 9px;
     }
 
     #menu {
       display: none;
-
+      margin: 0;
       &.visible {
         display: block;
+        position: fixed;
+        top: 72px;
+        left: 0;
+        list-style: none;
+        padding: 0;
+        background-color: black;
+        width: 100%;
+      }
+
+      li {
+        padding: 10px 15px;
+      }
+
+      a {
+        color: $secondaryColor;
+        text-decoration: none;
+        font-size: 30px;
+      }
+    }
+
+    .logo {
+      color: white;
+      height: 72px;
+      font-size: 30px;
+      display: flex;
+      align-items: center;
+      margin-right: 15px;
+
+      &--orange {
+        padding: 5px 3px 5px 5px;
+        background-color: $primaryColor;
+        border-radius: 15px 0 0 15px;
+      }
+
+      &--tube {
+        background-color: $ternaryColor;
+        padding: 5px 3px 5px 5px;
+        border-radius: 0 10px 10px 0;
       }
     }
 
     #search-bar {
-      width: 400px;
-      border-radius: 24px;
+      width: 100%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+
       & input {
-        width: 80%;
+        padding: 0 15px;
+        width: 100%;
         height: 48px;
         border-radius: 24px 0 0 24px;
       }
