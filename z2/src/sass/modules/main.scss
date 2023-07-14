@@ -1,0 +1,31 @@
+@use 'config' as *;
+
+main {
+    section {
+        display: flex;
+        overflow-x: auto;
+        height: auto;
+
+        & .description {
+            color: $secondaryColor;
+            position: absolute;
+            left: 15px;
+        }
+
+        & .card {
+            color: $secondaryColor;
+            margin: 75px 15px 0 15px;
+
+            &__more {
+                color: $secondaryColor;
+                font-size: 50px;
+                height: 169px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 300px;
+                background-color: $fillerColor;
+            }
+        }
+    }
+}
