@@ -13,7 +13,6 @@
   & nav {
     width: 100%;
     display: flex;
-    align-content: center;
     position: sticky;
 
     #toggle {
@@ -45,7 +44,7 @@
       a {
         color: $secondaryColor;
         text-decoration: none;
-        font-size: 30px;
+        font-size: 40px;
       }
     }
 

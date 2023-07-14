@@ -26,6 +26,10 @@ main {
                 width: 300px;
                 background-color: $fillerColor;
             }
+
+            & p, span {
+                font-size: 120%;
+            }
         }
     }
 }
