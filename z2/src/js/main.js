@@ -5,9 +5,9 @@ menuToggleElement.addEventListener('click', function() {
     menuElement.classList.toggle('visible');
 });
 
-// const laptopBreakpoint = window.matchMedia('(min-width: 768px)');
-// laptopBreakpoint.addEventListener('change', function() {
-//     if (laptopBreakpoint.matches) {
-//         menuElement.classList.remove('visible');
-//     }
-// });
+const lanscapeBreakpoint = window.matchMedia('(min-width: 720px)');
+lanscapeBreakpoint.addEventListener('change', function() {
+    if (lanscapeBreakpoint.matches) {
+        menuElement.classList.remove('visible');
+    }
+});
