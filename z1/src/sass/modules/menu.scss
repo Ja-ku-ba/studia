@@ -3,10 +3,13 @@
 .menu {
   height: 120px;
   width: 100%;
+  bottom: 0;
+  position: absolute;
   padding: 0 50px;
   background-color: rgba(0,0,0,0.5);
   display: flex;
   align-items: center;
+
 
   &__apps{
     width: 100%;
