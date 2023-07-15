@@ -2,7 +2,7 @@
 
 ## To launch the app:
 1. git clone git@github.com:Ja-ku-ba/studia.git
-2. windows: cd .\studia\z2\
+2. windows: cd .\studia\z2\, linux: cd studia/z2/
 3. npm install
 4. npm run dev
 
