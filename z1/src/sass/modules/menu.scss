@@ -3,8 +3,8 @@
 .menu {
   height: 120px;
   width: 100%;
-  bottom: 0;
-  position: absolute;
+  top: calc(100% - 120px);
+  position: relative;
   padding: 0 50px;
   background-color: rgba(0,0,0,0.5);
   display: flex;
