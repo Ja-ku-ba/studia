@@ -2,10 +2,6 @@
 
 
 @media (min-width: $breakpoint) {
-  // #start nav button {
-  //   display: none;
-  // }
-
   #start nav ul {
     display: flex;
   }
@@ -16,7 +12,6 @@
 
   #menu li {
     margin: -20px 0 20px 0;
-    // border: 1px solid red;
   }
 
   #start nav li {
@@ -49,7 +44,12 @@
       border: none;
       background-color: black;
       margin-left: 9px;
+      &.laptop {
+        display: none;
+      }
     }
+
+    
 
     #menu {
       display: none;
@@ -75,6 +75,27 @@
         color: $secondaryColor;
         text-decoration: none;
         font-size: 40px;
+      }
+
+      &.laptop{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 72px;
+        right: 0;
+        background-color: black;
+        font-size: 70%;
+        height: 100vh;
+        width: 280px;
+      }
+
+      &.laptop li a {
+        padding-left: 4px;
+        font-size: 25px;
+      }
+
+      &.laptop li a:hover {
+        color: $ternaryColor;
       }
     }
 

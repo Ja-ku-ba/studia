@@ -4,7 +4,7 @@ main {
     section {
         display: flex;
         overflow-x: auto;
-        height: auto;
+        height: auto;  
 
         & .description {
             color: $secondaryColor;
@@ -15,6 +15,7 @@ main {
         & .card {
             color: $secondaryColor;
             margin: 75px 15px 0 15px;
+            max-width: 300px;
 
             &__more {
                 color: $secondaryColor;
