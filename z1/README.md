@@ -9,7 +9,7 @@
 ### To properly display the content:
 1. Open the port on which the application is running, dont be scared
 2. Then select the mode: "inspect"
-3. Foolow the images
+3. Foolow the images \n
  a. select button from image, or press ctr + shift + m (on chrome) 
  ![Zdjecie krok 1](readme_files/krok1.png)
  b. set dimensions 720x1280. Why? The Internet said so
