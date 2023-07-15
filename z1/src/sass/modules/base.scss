@@ -11,13 +11,26 @@
 
 body {
   // width: 720px;
-  height: 100%;
-  margin: auto;
+  // height: 100%;
+  // margin: auto;
+
+  &.landscape {
+    // height: 100px;
+  }
 }
 
-.wallpaper {
+#wallpaper {
   object-position: 69% 0;
   object-fit: cover;
   z-index: -1;
   position: absolute;
+
+  &.landscape{
+    object-position: 69% 0;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
 }

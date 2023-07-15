@@ -10,6 +10,26 @@
   display: flex;
   align-items: center;
 
+  &.landscape {
+    position: absolute;
+    top: 0;
+    width: 120px;
+    height: 100%;
+    right: 0;
+  }
+
+  &.landscape ul  {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 85%;
+    align-items: center;
+    justify-items: space-between;
+    left: 0;
+    position: absolute;
+    // border: 1px solid lime;
+  }
+
 
   &__apps{
     width: 100%;

@@ -5,6 +5,9 @@
   height: calc(100% - 50px);
   margin: 30px auto;
 
+
+
+
   &__clock {
     width: 100%;
     height: 200px;
@@ -40,6 +43,11 @@
         }
       }
     }
+  }
+  
+  &.landscape .apps__applications ul {
+    padding: 0;
+    display: flex;
   }
 
   &__applications{
